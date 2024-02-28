@@ -17,6 +17,8 @@ const findUser = () => {
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4) {
             const data = JSON.parse(this.responseText);
+            // console.log(typeof data);
+            // console.log(data)
 
             //function to update card with data
             updateCard(data);
@@ -29,10 +31,12 @@ const updateCard = (data) => {
 
     //photo URL
     const picUrl = data.avatar_url;
+    // console.log(data.avatar_url);
     document.querySelector('#profile').src = picUrl;
 
     //followers
     const followers = data.followers;
+    // console.log(data.followers)
     document.querySelector('#followers').innerText = followers;
 
     //name
@@ -41,6 +45,7 @@ const updateCard = (data) => {
 
     //contact
     const contact = data.html_url;
+    // console.log(contact)
     document.querySelector('#contact').href = contact;
 
     //bio
