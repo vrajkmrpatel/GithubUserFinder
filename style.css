@@ -1,0 +1,52 @@
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.bio {
+    color: grey;
+    font-size: 18px;
+}
+input{
+    padding: 10px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    color: black;
+    font-size: 18px;
+    border-radius: 10px;
+}
+button {
+    padding: 10px;
+    color: white;
+    background-color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover{
+    background-color: #000000;
+    color: rgb(255, 254, 254);
+    opacity: 0.7;
+}
+
+p {
+    display: inline-block;
+}
