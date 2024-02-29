@@ -15,7 +15,7 @@
     color: grey;
     font-size: 18px;
 }
-input{
+#userInput{
     padding: 10px;
     background-color: #ffffff;
     border: 2px solid black;
