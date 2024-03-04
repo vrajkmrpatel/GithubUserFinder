@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .heading {
     text-align: center;
     margin-bottom: 20px;
@@ -10,18 +15,35 @@
     margin: auto;
     text-align: center;
 }
-
+#profile{
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 275px;
+}
+#name{
+    padding: 10px;
+}
 .bio {
+    padding: 10px;
     color: grey;
     font-size: 18px;
 }
-#userInput{
+
+#userInput {
     padding: 10px;
     background-color: #ffffff;
     border: 2px solid black;
     color: black;
     font-size: 18px;
     border-radius: 10px;
+}
+#contact{
+    padding: 10px;
+    
+}
+#followers{
+    padding: 10px;
+
 }
 button {
     padding: 10px;
@@ -41,7 +63,7 @@ a {
     color: black;
 }
 
-button:hover{
+button:hover {
     background-color: #000000;
     color: rgb(255, 254, 254);
     opacity: 0.7;
